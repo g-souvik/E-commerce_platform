@@ -1,0 +1,131 @@
+	* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    nav {
+      background-color: #111518;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 50px 6px 15px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-left: 170px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #969393;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #09bdd9;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      min-width: 160px;
+      z-index: 1000;
+    }
+
+    .dropdown-content a {
+      padding: 12px 16px;
+      display: block;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+    }
+
+    .search-container input {
+      padding: 8px 12px;
+      border: 2px solid #ccc;
+      border-radius: 20px 0 0 20px;
+      outline: none;
+      width: 200px;
+    }
+
+    .search-container button {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      background-color: #25a0d9;
+      color: white;
+      border-radius: 0 20px 20px 0;
+      cursor: pointer;
+      border-left: none;
+    }
+
+    .user-section {
+      display: flex;
+      align-items: center;
+      gap: 45px;
+    }
+
+    .user-section span {
+      font-weight: 500;
+      color: #969393;
+    }
+
+    .user-section a {
+      text-decoration: none;
+      color: #90fce3;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .user-section a:hover {
+      color: #4ad9c2;
+    }
+
+    @media (max-width: 900px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+      }
+
+      .nav-links,
+      .user-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 10px;
+      }
+
+      .search-container {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+    }
