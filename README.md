@@ -23,7 +23,7 @@ It provides a seamless shopping experience with features like product catalog, c
 
 ---
 
-## 🍃 Update Database Configuration in src/main/resources/application.properties
+## 🍃 Update Database Configuration in application.properties
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
 spring.datasource.username=your-username
