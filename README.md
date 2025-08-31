@@ -28,6 +28,7 @@ It provides a seamless shopping experience with features like product catalog, c
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
 spring.datasource.username=your-username
 spring.datasource.password=your-password
+```
 
 ---
 
