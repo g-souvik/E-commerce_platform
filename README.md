@@ -23,7 +23,12 @@ It provides a seamless shopping experience with features like product catalog, c
 
 ---
 
-## ⚙️ Setup
+## 🍃 Update Database Configuration in src/main/resources/application.properties
 ```bash
-git clone https://github.com/yourusername/E-commerce.git
-cd E-commerce
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
+spring.datasource.username=your-username
+spring.datasource.password=your-password
+
+---
+
+## 🌐 Access in browser → http://localhost:8080 🚀
