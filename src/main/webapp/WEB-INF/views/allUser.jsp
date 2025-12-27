@@ -72,29 +72,7 @@
                     <img src="https://pic.onlinewebfonts.com/thumbnails/icons_325791.svg" style="height:30px;">
                 </div>
             </div>
-           
-            <div class="cardbox">
-                <div class="card">
-                    <div>
-                        <div class="numbers">0</div>
-                        <div class="cardname">Active Users</div>
-                    </div>
-                    <div class="iconbox">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div>
-                        <div class="numbers">0</div>
-                        <div class="cardname">Sales</div>
-                    </div>
-                    <div class="iconbox">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-
+ 
             <div class="details">
                 <div class="recentorders">
                     <div class="cardheader">
