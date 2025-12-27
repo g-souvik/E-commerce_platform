@@ -26,8 +26,6 @@ body{
     z-index: 1000;
 }
 
-
-
 .navigation ul{
     position: absolute;
     top:30;
@@ -186,7 +184,6 @@ body{
     position:relative;
     width:100%;
     padding:14px;
-    padding-top: 0;
     display:grid;
     grid-gap:20px;
     grid-template-columns: 1fr;
