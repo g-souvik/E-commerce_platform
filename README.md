@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Web Application
 
-A full-stack **E-commerce platform** built with **Spring Boot, JSP, and MySQL**.  
+A full-stack **E-commerce platform** built with **Spring Boot, JSP and MySQL**.  
 It provides a seamless shopping experience with features like product catalog, cart, order management and payment integration.
 
 ---
